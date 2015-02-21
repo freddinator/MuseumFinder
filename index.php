@@ -3,7 +3,7 @@ session_start();
 
 if(isset($_GET['clear'])){
   session_destroy();
-  header('Location: /');
+  header('Location: index.php');
   die();
 }
 
