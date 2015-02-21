@@ -1,4 +1,8 @@
 <?php
+
+require_once 'apiUtils.php';
+
+
 session_start();
 
 if(isset($_GET['clear'])){
@@ -10,8 +14,6 @@ if(isset($_GET['clear'])){
 if(!isset($_GET['id'])){
   header('Location: index.php?id=' . 0);
 }
-
-require_once 'apiUtils.php';
 
 if (!isset($_SESSION['data'])){
   $data = getRandom();
