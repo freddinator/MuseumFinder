@@ -20,9 +20,6 @@ if (!isset($_SESSION['data'])){
 
   shuffle($data);
 
-
-  shuffle($data);
-
   $_SESSION['natural'] = 0;
   $_SESSION['va'] = 0;
   $_SESSION['science'] = 0;

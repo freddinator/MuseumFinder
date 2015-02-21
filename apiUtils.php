@@ -11,7 +11,7 @@ function getRandom(){
 
   //Science Museum Media Route "http://www.sciencemuseum.org.uk/images/object_images/";
   $data[] = array("name" => "Electrical Chimes", "image" => "http://www.sciencemuseum.org.uk/images/object_images/277x265/10211982.jpg", "viewed" => false, "museum" => "science");
-  $data[] = array("name" => "Vacum Pump", "image" => "http://www.sciencemuseum.org.uk/images/object_images/277x265/10326301.jpg", "viewed" => false, "museum" => "science");
+  $data[] = array("name" => "Vacuum Pump", "image" => "http://www.sciencemuseum.org.uk/images/object_images/277x265/10326301.jpg", "viewed" => false, "museum" => "science");
   $data[] = array("name" => "ATLAS Circuit Board", "image" => "http://www.sciencemuseum.org.uk/images/object_images/277x265/10303417.jpg", "viewed" => false , "museum" => "science");
 
   // British Museum "http://www.britishmuseum.org/images/";
