@@ -27,6 +27,3 @@ function getRandom(){
   return $data;
 }
 
-
-
-?>
