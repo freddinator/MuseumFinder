@@ -78,6 +78,7 @@ $percent = $percent * 100;
     <div class="row">
       <div class="col-md-2"></div>
       <div class="col-md-8">
+        <div class="alert alert-info" role="alert">This app currently uses hard coded data!</div><br>
 		<div class="progress">
   			<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: <?php echo $percent;?>%;">
           <?php echo $i+1 . '/' . $total;?>
