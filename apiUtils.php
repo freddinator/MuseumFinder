@@ -1,6 +1,4 @@
 <?php
-require_once 'vendor/autoload.php';
-
 function getRandom(){
 
   $data = array();
