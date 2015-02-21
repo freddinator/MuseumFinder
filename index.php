@@ -12,7 +12,9 @@ if(isset($_GET['clear'])){
 }
 
 if(!isset($_GET['id'])){
-  header('Location: index.php?id=' . 0);
+    header('Location: index.php?id=0');
+    die();
+
 }
 
 if (!isset($_SESSION['data'])){
