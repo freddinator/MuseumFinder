@@ -29,4 +29,4 @@ if ($choice == 'y'){
 
 $i++;
 
-header('Location: process.php?id=' . $i);
+header('Location: choice.php?id=' . $i);

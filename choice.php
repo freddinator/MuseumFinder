@@ -7,12 +7,12 @@ session_start();
 
 if(isset($_GET['clear'])){
   session_destroy();
-  header('Location: process.php');
+  header('Location: choice.php');
   die();
 }
 
 if(!isset($_GET['id'])){
-    header('Location: process.php?id=0');
+    header('Location: choice.php?id=0');
     die();
 
 }
@@ -75,11 +75,11 @@ require_once 'header.php';
 			<br>
 			<div class="text-center">
 				<div class="btn-group text-center" role="group" aria-label="...">
-                    <a href='process.php?id=<?php echo $i;?>&choice=n' class="btn btn-danger"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span> Nope</a>
-                    <a href='process.php?id=<?php echo $i;?>&choice=y' class="btn btn-success">Yep <span class="glyphicon glyphicon-ok" aria-hidden="true"></span></a>
+                    <a href='process.php?id=<?php echo $i;?>&choice=n' class="btn btn-danger"><i class="fa fa-times"></i> Nope</a>
+                    <a href='process.php?id=<?php echo $i;?>&choice=y' class="btn btn-success">Yep <i class="fa fa-check"></i></a>
 				</div>
                 <br><br>
-                <a href="choice.php?clear" class="btn btn-warning" data-toggle="tooltip" ><span class="glyphicon glyphicon-repeat" aria-hidden="true"></span> Start Over</a>
+                <a href="choice.php?clear" class="btn btn-warning" data-toggle="tooltip" ><i class="fa fa-repeat"></i> Start Over</a>
 			</div>
 		</div>
 </div>

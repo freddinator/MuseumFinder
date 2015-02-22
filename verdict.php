@@ -63,14 +63,14 @@ if ($nopreference == false){
   echo "<h2>You showed no clear preference</h2>";
 }
 
-
+session_destroy();
 
 ?>
 
 			<br>
 			<div class="text-center">
 				<div class="btn-group text-center" role="group" aria-label="...">
-					<a href="/?clear" class="btn btn-default">Restart</a>
+					<a href="/choice.php" class="btn btn-default"><i class="fa fa-repeat"></i> Restart</a>
 				</div>
 			</div>
 		</div>
